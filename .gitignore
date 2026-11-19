@@ -1,0 +1,19 @@
+# Binaries
+*.exe
+/playerzzz
+/player
+*.test
+*.out
+
+# fyne package output
+fyne-cross/
+*.app
+
+# Shared playlist files
+*.pzz
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

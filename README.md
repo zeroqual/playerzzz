@@ -4,6 +4,8 @@
 
 ---
 
+![playerzzz](docs/image.png)
+
 ## English
 
 A desktop music player written in Go with [Fyne](https://fyne.io): your local mp3 library, playlists with covers, a built-in YouTube audio downloader written in pure Go, and playlist sharing between users.

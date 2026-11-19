@@ -1,7 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"log"
+
+	"github.com/zeroqual/playerzzz/internal/ui"
+)
 
 func main() {
-	fmt.Println("hello world")
+	if err := ui.Run(); err != nil {
+		log.Fatal(err)
+	}
 }
